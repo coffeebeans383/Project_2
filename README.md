@@ -21,10 +21,9 @@ Propsal:
 1-page proposal
 
 A brief articulation of chosen topic and rationale
+Our project involves telling a story about "The Nashville Experience". Join us as we explore all that Nashville has to offer through geomapping.
 
 a link to data sets and screensoot of the meta data if possible
-
-https://data.nashville.gov/
 
 3 to 4 screenshots of inspiration viz
 
