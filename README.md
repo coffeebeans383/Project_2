@@ -23,6 +23,7 @@ Propsal:
 A brief articulation of chosen topic and rationale
 
 a link to data sets and screensoot of the meta data if possible
+https://data.nashville.gov/
 
 3 to 4 screenshots of inspiration viz
 
