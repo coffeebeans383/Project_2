@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    background-color: rgb(251, 255, 0);
+    color: rgb(30, 149, 179);
+    font-size: 5ch;
+  }
+  h2 {
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgb(30, 149, 179);
+    font-size: 2ch;
+  }
+.nav-item {
+  font-stretch: expanded;
+  width: 25vw;
+  text-align: center;
+  font-size: 4ch;
+
+}
+body {
+  background-image: url(https://www.visittheusa.com/sites/default/files/styles/hero_l_x2/public/images/hero_media_image/2016-10/HERO%201_Nashville_TN_shutterstock_208620637_Web72DPI.jpg?itok=yzXYKPG1);
+  background-size: 100%;
+}
+img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: thick solid black;
+}
+table.dataframe {
+  background-color: whitesmoke;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: thick solid black;
+  font-stretch: expanded;
+  width: 25vw;
+  text-align: center;
+  font-size: 3ch;  
+  
+}
+iframe {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70vw;
+  height: 80vh;
+}
+p {
+  color: whitesmoke;
+  font-size: 40px;
+}
