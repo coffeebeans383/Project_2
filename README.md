@@ -25,9 +25,10 @@ _**Group 2 Project 2**_
 
 Our project involves telling a story about "The Nashville Experience". Join us as we explore all that Nashville has to offer through geomapping.
 
-#### A link to data sets and screensoot of the meta data if possible
+#### A link to data sets and screenshot of the meta data if possible
 
 https://data.nashville.gov/
+![Screenshot%20(12)](https://github.com/coffeebeans383/Project_Nashville/blob/master/screenshots/Screenshot%20(12).png)
 
 #### 3 to 4 screenshots of inspiration viz
 ![Screenshot%20(12)](https://github.com/coffeebeans383/Project_Nashville/blob/master/screenshots/Screenshot%20(12).png)
@@ -36,9 +37,9 @@ https://data.nashville.gov/
 
 #### A sketch of the final gitdesign
 <img src="https://github.com/coffeebeans383/Project_Nashville/blob/master/Images/IMG_2973.jpg" alt="Sketch of map design"
-	title="A sketch of map design" width="450" />
+	title="A sketch of map design" width="500" />
 <img src="https://github.com/coffeebeans383/Project_Nashville/blob/master/Images/IMG_20200912_140754.jpg" alt="Sketch of webpage design"
-	title="A sketch of webpage design" width="450" />
+	title="A sketch of webpage design" width="500" />
 
 #### A link to the primary GitHub repository you'll be housing your work in 
 
