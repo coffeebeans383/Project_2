@@ -18,7 +18,7 @@ _**Group 2 Project 2**_
 #### 5. Your project must include some level of user-driven interaction (e.g., menus, dropdowns, textboxes).
 #### 6. Your final visualization should ideally include at least three views. 
 
-# Propsal:
+# Proposal:
 ### 1-page proposal
 
 #### A brief articulation of chosen topic and rationale
@@ -35,9 +35,10 @@ https://data.nashville.gov/
 ![Screenshot%20(14)](https://github.com/coffeebeans383/Project_Nashville/blob/master/screenshots/Screenshot%20(14).png)
 
 #### A sketch of the final gitdesign
-![Sketch of map design](https://github.com/coffeebeans383/Project_Nashville/blob/master/Images/IMG_2973.jpg)
-
-![Sketch of webpage design](https://github.com/coffeebeans383/Project_Nashville/blob/master/Images/IMG_20200912_140754.jpg)
+<img src="https://github.com/coffeebeans383/Project_Nashville/blob/master/Images/IMG_2973.jpg" alt="Sketch of map design"
+	title="A sketch of map design" width="450" />
+<img src="https://github.com/coffeebeans383/Project_Nashville/blob/master/Images/IMG_20200912_140754.jpg" alt="Sketch of webpage design"
+	title="A sketch of webpage design" width="450" />
 
 #### A link to the primary GitHub repository you'll be housing your work in 
 
