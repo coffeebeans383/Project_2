@@ -22,7 +22,7 @@ d3.json(newtry, function(response) {
   for (var i = 0; i < response.length; i++) {
     var location = response[i].mapped_location;
     var myIcon = L.icon({
-      iconUrl: 'img_362282.png',
+      iconUrl: '/static/Images/img_362282.png',
       iconSize: [27.625, 24.5],
       iconAnchor: [22, 94],
       popupAnchor: [-3, -76],
