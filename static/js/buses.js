@@ -13,17 +13,17 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-var newtry = "https://data.nashville.gov/resource/4ugp-s85t.json?$limit=1000";
+var newtry = " https://data.nashville.gov/resource/p886-fnbd.json?$limit=1000";
 
 d3.json(newtry, function(response) {
 
   console.log(response);
 
   for (var i = 0; i < response.length; i++) {
-    var location = response[i].mapped_location;
+    var location = response[i].geocoded_column;
     var myIcon = L.icon({
-      iconUrl: 'free_wifi.png',
-      iconSize: [27.625, 24.5],
+      iconUrl: 'bus_stop.png',
+      iconSize: [53, 53],
       iconAnchor: [22, 94],
       popupAnchor: [-3, -76],
       //shadowUrl: 'my-icon-shadow.png',
@@ -34,7 +34,7 @@ d3.json(newtry, function(response) {
       L.marker([location.latitude, location.longitude], {icon: myIcon})
       //.setIcon(https://www.onlinewebfonts.com/icon/362282)
       .addTo(myMap)
-      .bindPopup("<h3>Name:" + response[i].site_name + "<h3><h3>Type: " + response[i].site_type + "</h3>");
+      .bindPopup("<h3>" + response[i].stop_name + "<h3><h3>Shelter: " + response[i].shelter + "</h3>");
     }
   }
 
