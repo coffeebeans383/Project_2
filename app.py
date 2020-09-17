@@ -9,5 +9,9 @@ def index():
 def index_wifi():
     return render_template("index-wifi.html")
 
+@app.route("/park")
+def index_park():
+    return render_template("index-park.html")
+
 if __name__ == "__main__":
     app.run()
