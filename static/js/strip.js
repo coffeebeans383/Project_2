@@ -13,24 +13,25 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-var newtry = "https://data.nashville.gov/resource/p886-fnbd.json?$limit=1000";
+var newtry = "https://data.nashville.gov/resource/g97f-x87i.json?$limit=1000";
 
 d3.json(newtry, function (response) {
 
   console.log(response);
 
   for (var i = 0; i < response.length; i++) {
-    var location = response[i].geocoded_column;
+    var location = response[i].location;
     var myIcon = L.icon({
-      iconUrl: 'Images/bus_stop.png',
-      iconSize: [53, 53],
+      iconUrl: 'Images/xxx.png',
+      iconSize: [64, 64],
       iconAnchor: [22, 94],
       popupAnchor: [-3, -76],
+
     });
     if (location) {
       L.marker([location.latitude, location.longitude], { icon: myIcon })
         .addTo(myMap)
-        .bindPopup("<h3>Stop ID:" + response[i].stop_id_number + "<h3><h3>" + response[i].stop_name + "<h3><h3>Bench:" + response[i].bench + "<h3>Shelter:" + response[i].shelter + "</h3>");
+        .bindPopup("<h3>" + response[i].business_name + "</h3>");
     }
   }
 

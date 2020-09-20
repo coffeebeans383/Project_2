@@ -15,26 +15,23 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 var newtry = "https://data.nashville.gov/resource/4ugp-s85t.json?$limit=1000";
 
-d3.json(newtry, function(response) {
+d3.json(newtry, function (response) {
 
   console.log(response);
 
   for (var i = 0; i < response.length; i++) {
     var location = response[i].mapped_location;
     var myIcon = L.icon({
-      iconUrl: 'free_wifi.png',
+      iconUrl: 'Images/free_wifi.png',
       iconSize: [27.625, 24.5],
       iconAnchor: [22, 94],
       popupAnchor: [-3, -76],
-      //shadowUrl: 'my-icon-shadow.png',
-      //shadowSize: [68, 95],
-      //shadowAnchor: [22, 94]
-  });
+
+    });
     if (location) {
-      L.marker([location.latitude, location.longitude], {icon: myIcon})
-      //.setIcon(https://www.onlinewebfonts.com/icon/362282)
-      .addTo(myMap)
-      .bindPopup("<h3>Name:" + response[i].site_name + "<h3><h3>Type: " + response[i].site_type + "</h3>");
+      L.marker([location.latitude, location.longitude], { icon: myIcon })
+        .addTo(myMap)
+        .bindPopup("<h3>Name:" + response[i].site_name + "<h3><h3>Type: " + response[i].site_type + "</h3>");
     }
   }
 
