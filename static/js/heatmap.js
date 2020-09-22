@@ -24,7 +24,7 @@ d3.json(url, function (response) {
     var location = response[i].mapped_location;
 
     if (location) {
-      heatArray.push([location.latitude, location.longitude]);
+      heatArray.push([location.coordinates[1], location.coordinates[0]]);
     }
   }
 
