@@ -17,13 +17,12 @@ h3 {
   }
 
 
-}
 
-.nav-item {
+
+.nav-link {
   font-stretch: expanded;
-  width: 25vw;
-  text-align: center;
-  font-size: 5ch;
+  width: 25vw; 
+  font-size: 3ch;
 
 }
 body {

@@ -22,7 +22,7 @@ var myMap = L.map("map", {
     for (var i = 0; i < response.length; i++) {
       var location = response[i].geocoded_column;
       var myIcon = L.icon({
-        iconUrl: 'Images/bus_stop.png',
+        iconUrl: '/static/Images/bus_stop.png',
         iconSize: [53, 53],
         iconAnchor: [22, 94],
         popupAnchor: [-3, -76],
