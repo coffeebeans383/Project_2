@@ -27,17 +27,17 @@ def index_art():
 def index_buses():
     return render_template("index-buses.html")
 
-@app.route("/crime")
-def index_crime():
-    return render_template("index-crime.html")
+#@app.route("/crime")
+#def index_crime():
+    #return render_template("index-crime.html")
 
 @app.route("/strip")
 def index_strip():
     return render_template("index-strip.html")
 
-@app.route("/traffic")
-def index_traffic():
-    return render_template("index-traffic.html")
+#@app.route("/traffic")
+#def index_traffic():
+   # return render_template("index-traffic.html")
 
 @app.route("/entertainment")
 def index_entertainment():
