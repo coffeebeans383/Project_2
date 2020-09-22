@@ -18,10 +18,11 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var baseURL = "https://data.nashville.gov/resource/xa6c-xfhf.json?";
 var date = "$where=date_and_time between'2020-01-01T00:00:00' and '2020-08-31T00:00:00'";
 var complaint = "&illumination_description=DAYLIGHT";
-var limit = "&$limit=10000";
+var limit = "&$limit=1000";
 
 // Assemble API query URL
 var url = baseURL + date + limit;
+console.log(url);
 
 // Grab the data with d3
 d3.json(url, function (response) {

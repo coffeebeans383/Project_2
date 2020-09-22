@@ -12,7 +12,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-var url = "https://data.nashville.gov/resource/kqb6-kd6q.json?$limit=10000";
+var url = "https://data.nashville.gov/resource/kqb6-kd6q.json?$limit=1000";
 
 d3.json(url, function (response) {
 
