@@ -22,7 +22,6 @@ var limit = "&$limit=10000";
 
 // Assemble API query URL
 var url = baseURL + date + limit;
-console.log(url);
 
 // Grab the data with d3
 d3.json(url, function (response) {
