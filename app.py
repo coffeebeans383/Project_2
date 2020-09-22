@@ -7,6 +7,7 @@ app.config['TEMPLATES_AUTO_RELOAD']= True
 def index():
     return render_template("index.html")
 
+<<<<<<< HEAD
 @app.route("/wifi")
 def index_wifi():
     return render_template("index-wifi.html")
